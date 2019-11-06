@@ -1,8 +1,8 @@
-//Title: to check weather the number is palindrome or not
-/* description: palindrome number is a number which remains same 
-                even after reversing the number 
-                   eg: 121
-                      after reversing: 121 
+//Title: to reverse the number
+/* description: its just simple to reverse the given number taken as input
+                  eg: input= 6745
+                      output(reversed number)=5476
+                  
 */
 
 //------------------------------------------------------------------------------
@@ -13,11 +13,11 @@ int main()
 {
     int num, temp, r, a = 0;
 
-    printf("enter the number that you wanted to check:");
+    printf("enter the number that you want to reverse:");
     scanf("%d", &num);
-
+    
     temp = num;
-
+    
     while (num != 0)
     {
         r = num % 10;
@@ -25,14 +25,9 @@ int main()
         num = num / 10;
     }
 
-    if (a == temp)
-    {
-        printf("%d: this number is palindrome", temp);
     }
-    else
-    {
-        printf("%d: this number is not palindrome", temp);
-    }
+
+    printf("the reversed number of %d is %d",temp,a);
     return 0;
 }
 
