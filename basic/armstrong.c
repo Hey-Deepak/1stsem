@@ -13,13 +13,13 @@
 
 int main()
 {
-    int num, temp, r, a = 0, count = 0,b;
+    int num, temp, r, a = 0, count = 0, b;
 
     printf("enter the number that you wanted to check:");
     scanf("%d", &num);
 
     temp = num;
-    b=num;
+    b = num;
 
     while (temp != 0)
     {
@@ -35,9 +35,7 @@ int main()
         num = num / 10;
     }
 
-    
-
- if (b == a)
+    if (b == a)
     {
         printf("%d: this number is armstrong", a);
     }
@@ -50,4 +48,4 @@ int main()
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
- //by me:) (nisha)
+//by me:) (nisha)

@@ -15,22 +15,21 @@ int main()
 
     printf("enter the number that you want to reverse:");
     scanf("%d", &num);
-    
+
     temp = num;
-    
+
     while (num != 0)
     {
         r = num % 10;
         a = (a * 10) + r;
         num = num / 10;
     }
+}
 
-    }
-
-    printf("the reversed number of %d is %d",temp,a);
-    return 0;
+printf("the reversed number of %d is %d", temp, a);
+return 0;
 }
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
- //by me:) (nisha)
+//by me:) (nisha)
